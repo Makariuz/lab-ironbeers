@@ -5,3 +5,103 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "Cabin";
+}
+
+h1,
+h2{
+    color:#876445;
+}
+body{
+    background-color: #F4DFBA;
+}
+.navBar{
+    background-color: #876445;
+    padding: 20px;
+    display:flex;
+    gap: 50px;
+    list-style: none;
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
+.navBar a{
+    text-decoration: none;
+    color: white;
+    font-family: "Cabin";
+    font-size: 1rem;
+}
+
+.bodyContainer{
+    margin-top:100px;
+   padding-top: 50px;
+   display:grid;
+   justify-items: center;
+   gap: 50px;
+}
+
+.btn{
+    background-color: #CA965C;
+    color: white;
+    font-family: "Cabin";
+    padding: 20px 60px 20px 60px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin-right: 60px;
+    box-shadow: 4px 4px 2px #876445;
+}
+
+.random-beer{
+    margin-top:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCard{
+    padding: 50px;
+}
+.imgCard2{
+    padding: 5px;
+}
+.beerInfo{
+
+    display:grid;
+    align-items: center;
+    width:550px;
+    height: 300px;
+
+}
+
+.beerCards{
+    border: 1px solid  #876445;
+    box-shadow: 6px 7px 2px #876445;
+    width: 450px;
+    gap: 5px;
+    height: auto;
+    display:flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.beerCards:hover{
+    box-shadow: 6px 7px 2px #EEC373;
+    background-color: #876445;
+    color:white;
+}
+
+.beerContainer{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   justify-items: center;
+   margin:100px 20px 20px 20px;
+   gap: 20px;
+
+}
+
